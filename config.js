@@ -1,6 +1,6 @@
 module.exports = {
-    prefix: "", // The prefix of the bot
-    welcomeChannel: "", // The channel ID of where join and leave messages should be sent
+    prefix: "...", // The prefix of the bot
+    welcomeChannel: "1380090219914596392", // The channel ID of where join and leave messages should be sent
     slashCommands: true, // Wether or not the bot should have slash commands
     colors: {
         main: [0, 110, 255],
@@ -8,10 +8,10 @@ module.exports = {
     },
     botstatus: {
         enabled: false, // Wether or not the bot should have a status
-        status: "", // The status of the bot (dnd, online, idle, invisible)
-        activity_type: "", // The type of the activity (watching, listening, playing, streaming)
-        activity_text: "", // The activity text
-        activity_url: "" // The stream URL
+        status: "idle", // The status of the bot (dnd, online, idle, invisible)
+        activity_type: "watching", // The type of the activity (watching, listening, playing, streaming)
+        activity_text: "NCX CLUB", // The activity text
+        activity_url: "https://www.twitch.tv/stableronaldo" // The stream URL
     },
     inviteRewards: false, // Wether or not invite rewards should be enabled
     rewards: [
